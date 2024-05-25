@@ -23,6 +23,14 @@ Sigue estos pasos para instalar las dependencias del proyecto:
     
 3. Crea la carpeta keys y agrega ahi tu certificado .crt y .key 
 
+4. Clonar el .env.template y crear el .env
+
+5. Ejecutar el comando
+
+   ```bash
+    docker compose up -d
+    ```
+
 ## Uso
 
 Inicia el proyecto con el siguiente comando:
