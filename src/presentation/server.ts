@@ -20,9 +20,11 @@ export class Server {
     }
     
     async start(){
-       //* Middelwares
+        //* Middelwares
+        this.app.use( express.json() );
+        this.app.use( express.urlencoded({ extended: true }));
 
-       //* Public Folder
+        //* Public Folder
         this.app.use( express.static(this.publicPath));
 
         //* Routes
