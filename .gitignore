@@ -2,6 +2,7 @@
 /keys/
 
 .env
+.env.test
 
 postgres/
 coverage/
